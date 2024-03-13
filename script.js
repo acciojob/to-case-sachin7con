@@ -1,6 +1,11 @@
 function toCase(text) {
-  // write your code here
+  //SGN write your code here
+	let dash = "-";
+	let str = "";
+	str += text.toLowerCase() + dash + text.toUpperCase();
+	return str;
 }
+
 
 // DO not change the code below
 
